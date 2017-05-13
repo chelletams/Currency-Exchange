@@ -12,6 +12,9 @@
 		BA21D20B1EC042F70005E114 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA21D2091EC042F70005E114 /* Main.storyboard */; };
 		BA21D20D1EC042F70005E114 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA21D20C1EC042F70005E114 /* Assets.xcassets */; };
 		BA21D2101EC042F70005E114 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA21D20E1EC042F70005E114 /* LaunchScreen.storyboard */; };
+		BA21D21E1EC047140005E114 /* ConvertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA21D21D1EC047140005E114 /* ConvertViewController.swift */; };
+		BA21D2201EC071060005E114 /* YQL.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA21D21F1EC071060005E114 /* YQL.swift */; };
+		BA21D2261EC08C810005E114 /* FavoritesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA21D2251EC08C810005E114 /* FavoritesTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		BA21D20C1EC042F70005E114 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA21D20F1EC042F70005E114 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA21D2111EC042F70005E114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA21D21D1EC047140005E114 /* ConvertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConvertViewController.swift; sourceTree = "<group>"; };
+		BA21D21F1EC071060005E114 /* YQL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YQL.swift; sourceTree = "<group>"; };
+		BA21D2251EC08C810005E114 /* FavoritesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 				BA21D2051EC042F70005E114 /* AppDelegate.swift */,
 				BA21D2071EC042F70005E114 /* ViewController.swift */,
 				BA21D2091EC042F70005E114 /* Main.storyboard */,
+				BA21D2251EC08C810005E114 /* FavoritesTableViewController.swift */,
+				BA21D21F1EC071060005E114 /* YQL.swift */,
+				BA21D21D1EC047140005E114 /* ConvertViewController.swift */,
 				BA21D20C1EC042F70005E114 /* Assets.xcassets */,
 				BA21D20E1EC042F70005E114 /* LaunchScreen.storyboard */,
 				BA21D2111EC042F70005E114 /* Info.plist */,
@@ -138,6 +147,9 @@
 			files = (
 				BA21D2081EC042F70005E114 /* ViewController.swift in Sources */,
 				BA21D2061EC042F70005E114 /* AppDelegate.swift in Sources */,
+				BA21D2201EC071060005E114 /* YQL.swift in Sources */,
+				BA21D2261EC08C810005E114 /* FavoritesTableViewController.swift in Sources */,
+				BA21D21E1EC047140005E114 /* ConvertViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +313,7 @@
 				BA21D2161EC042F70005E114 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
